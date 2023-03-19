@@ -13,6 +13,8 @@
 		3D66CEB329C72ED2004AE4B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D66CEB129C72ED2004AE4B3 /* Main.storyboard */; };
 		3D66CEB529C72ED4004AE4B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D66CEB429C72ED4004AE4B3 /* Assets.xcassets */; };
 		3D66CEB829C72ED4004AE4B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D66CEB629C72ED4004AE4B3 /* LaunchScreen.storyboard */; };
+		3D66CEC029C76513004AE4B3 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66CEBF29C76513004AE4B3 /* NewAccountViewController.swift */; };
+		3D66CEC229C76547004AE4B3 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66CEC129C76547004AE4B3 /* PasswordResetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3D66CEB429C72ED4004AE4B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D66CEB729C72ED4004AE4B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D66CEB929C72ED4004AE4B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D66CEBF29C76513004AE4B3 /* NewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
+		3D66CEC129C76547004AE4B3 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				3D66CEAB29C72ED2004AE4B3 /* AppDelegate.swift */,
 				3D66CEAD29C72ED2004AE4B3 /* SceneDelegate.swift */,
 				3D66CEAF29C72ED2004AE4B3 /* ViewController.swift */,
+				3D66CEBF29C76513004AE4B3 /* NewAccountViewController.swift */,
+				3D66CEC129C76547004AE4B3 /* PasswordResetViewController.swift */,
 				3D66CEB129C72ED2004AE4B3 /* Main.storyboard */,
 				3D66CEB429C72ED4004AE4B3 /* Assets.xcassets */,
 				3D66CEB629C72ED4004AE4B3 /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D66CEB029C72ED2004AE4B3 /* ViewController.swift in Sources */,
+				3D66CEC229C76547004AE4B3 /* PasswordResetViewController.swift in Sources */,
 				3D66CEAC29C72ED2004AE4B3 /* AppDelegate.swift in Sources */,
 				3D66CEAE29C72ED2004AE4B3 /* SceneDelegate.swift in Sources */,
+				3D66CEC029C76513004AE4B3 /* NewAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
