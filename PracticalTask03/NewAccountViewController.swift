@@ -34,16 +34,12 @@ class NewAccountViewController: UIViewController {
             passwordTF.layer.borderColor = UIColor.red.cgColor
             mobileNumberTF.layer.borderColor = UIColor.red.cgColor
         } else {
-            let vc = storyboard?.instantiateViewController(identifier: "PasswordResetViewController")
-                navigationController?.pushViewController(vc!, animated: true)
-            
+            let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            if let homeViewController = mainStoryboard.instantiateViewController(withIdentifier: "PasswordResetViewController") as? PasswordResetViewController {
+                homeViewController.emailValue = emailTF.text
+                navigationController?.pushViewController(homeViewController,
+                                                         animated: true)
             }
-        
-        func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            guard let vc = segue.destination as? PasswordResetViewController else {return}
-            vc.emailValue = emailTF.text ?? "koko"
         }
-        }
-        
- 
     }
+}
